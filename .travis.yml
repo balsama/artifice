@@ -1,11 +1,5 @@
 language: php
 
-branches:
-  # Only test the master branch and SemVer tags.
-  only:
-    - master
-    - /^[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+.*$/
-
 matrix:
   fast_finish: true
   include:
