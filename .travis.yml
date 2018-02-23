@@ -10,12 +10,6 @@ matrix:
 
 sudo: false
 
-cache:
-  apt: true
-  directories:
-  - "$HOME/.composer/cache"
-  - "vendor"
-
 install:
   - composer install
 
