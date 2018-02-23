@@ -2,7 +2,17 @@
   "name": "grasmash/artifice-sut",
   "description": "An test project that relies on artifice.",
   "type": "project",
+  "repositories": {
+    "artifice": {
+      "type": "path",
+      "url": "[replaced by CommandTestBase::makeSandbox]",
+      "options": {
+        "symlink": true
+      }
+    }
+  },
   "require": {
+    "grasmash/artifice": "*@dev",
     "monolog/monolog": "^1.0"
   }
 }
