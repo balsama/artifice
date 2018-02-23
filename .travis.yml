@@ -12,6 +12,8 @@ sudo: false
 
 install:
   - composer install
+  # debug
+  - ls -la vendor/phpunit/phpunit/src/Framework
 
 script:
   - phpunit
